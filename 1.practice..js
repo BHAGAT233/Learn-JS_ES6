@@ -168,9 +168,19 @@
 // }
 // spread(1, 2, 3, 4, 5)
 
+// let a1 = [1, 2, 3]; // Skipping Values; 
+// let [a,,  c] = a1;
+
+// console.log(a,c)
+
+// Object ...Spread/ rest oprater; 
+
+// let obj = { name: 'bantu', age: 19, school: 'navgurukul' }
+
+// let { school, age, name } = obj
+
+// console.log(school, age, name);
 
 
-let a1 = [1, 2, 3];
-let [a,,  c] = a1;
+// promisas 
 
-console.log(a,c)
