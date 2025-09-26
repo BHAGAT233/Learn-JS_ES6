@@ -102,7 +102,7 @@
 
 
 
-// arrow function 
+//1: arrow function 
 //basic fat arrow function 
 
 // let a = ()=>{}
@@ -121,12 +121,12 @@
 // console.log(g());
 
 
-// template literals backtick ``;
+//2:  template literals backtick ``;
 
 // console.log(`4+4 is: ${4+4}, and 4*4 is: ${4*4}`);
 
 
-// default function perameter - jab app value na de function parameter to wo defaulf value le sake;
+//3: default function perameter - jab app value na de function parameter to wo defaulf value le sake;
 
 // function add(pra = 0){
 //     console.log(pra);
@@ -143,7 +143,8 @@
 // add1(11,12,13)
 // add1(11)
 
-// ...spread/rest oprater
+
+//4:  ...spread/rest oprater ;
 // spread ka matlap hai elemant ke sare values ko us jagah par bikher dena; 
 
 // rest use hote hai jab  aapko bache huye values ek varialble me daalne ho;
@@ -161,6 +162,15 @@
 // abcd(11, 12, 13, 14, 15, 16)
 
 
-// 
+// function spread(a, b, c, d, e) {
+//     console.log(a, b, c, d, e);
+
+// }
+// spread(1, 2, 3, 4, 5)
 
 
+
+let a1 = [1, 2, 3];
+let [a,,  c] = a1;
+
+console.log(a,c)
