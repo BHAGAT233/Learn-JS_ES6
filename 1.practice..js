@@ -203,20 +203,20 @@
 // 1. User will ask for a number between 1 to 10 and if the number is below 5 resolve if not reject ;
 
 
-let ans = new Promise((a, b) => {
-    let n = Math.floor(Math.random() * 10 + 1);
+// let ans = new Promise((a, b) => {
+//     let n = Math.floor(Math.random() * 10 + 1);
 
-    return n<=5? a(): b();
+//     return n<=5? a(): b();
 
-})
+// })
 
-ans
-.then(function(){
-    console.log('above');
+// ans
+// .then(function(){
+//     console.log('above');
     
-})
-.catch(function(){
-    console.log('belove');
+// })
+// .catch(function(){
+//     console.log('belove');
     
-})
+// })
 
