@@ -182,5 +182,41 @@
 // console.log(school, age, name);
 
 
-// promisas 
+// promisas ..........................;
+
+// let ans = new Promise((res, rej)=>{
+//     return true? rej():res();
+// })
+
+// ans
+// .then(function(){
+//     console.log('resolve ho gaya tha');
+
+// })
+// .catch(function(){
+//     console.log('reject hua tha !');
+
+// })
+
+//---------------------------------------------------------
+
+// 1. User will ask for a number between 1 to 10 and if the number is below 5 resolve if not reject ;
+
+
+let ans = new Promise((a, b) => {
+    let n = Math.floor(Math.random() * 10 + 1);
+
+    return n<=5? a(): b();
+
+})
+
+ans
+.then(function(){
+    console.log('above');
+    
+})
+.catch(function(){
+    console.log('belove');
+    
+})
 
