@@ -220,3 +220,21 @@
     
 // })
 
+// -------------------------------------------------------------------------//
+
+// sabse pahle ghar par aaao;
+// gate kholo aur gate lagao;
+// khana pakao aur khana khao;
+// incongit mode chalao;
+// sojao kyuki tum tak gaye ho ;
+
+
+let ans = new Promise((res, rej)=>{
+    return res('sabse pahle ghar par aao')
+})
+
+ans.then(function(date){
+    console.log(date);
+    
+})
+
