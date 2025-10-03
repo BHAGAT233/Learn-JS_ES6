@@ -229,12 +229,48 @@
 // sojao kyuki tum tak gaye ho ;
 
 
-let ans = new Promise((res, rej)=>{
-    return res('sabse pahle ghar par aao')
-})
+// let ans = new Promise((res, rej)=>{
+//     return res('sabse pahle ghar par aao')
+// })
 
-ans.then(function(date){
-    console.log(date);
+// ans.then(function(date){
+//     console.log(date);
     
-})
+// })
+
+//------------------------------------------------------------------//
+
+// map with array Object Example question ;
+
+// const fruits = [
+//   { id: "f1", name: "Apple", available: true },
+//   { id: "f2", name: "Mango", available: false },
+//   { id: "f3", name: "Banana", available: true }
+// ];
+
+// console.log(fruits[0].available);
+
+// const fruitList = fruits.map(fruit => {
+//   if (fruit.available) {
+//     return fruit.name;
+//   } else {
+//     return "Not Available";
+//   }
+// });
+
+// console.log(fruitList);
+
+
+
+// ------------------------------------------------------------------------//
+
+
+// const fruits = [
+//   { id: "f1", name: "Apple", available: true },
+//   { id: "f2", name: "Mango", available: true },
+//   { id: "f3", name: "Banana", available: false },
+//   { id: "f4", name: "Orange", available: true },
+//   { id: "f5", name: "Coconut", available: false }
+// ];
+
 
